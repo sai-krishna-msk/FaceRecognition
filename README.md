@@ -66,8 +66,3 @@ Trying many different, methods(learning many implementations) I ended up with us
 You can go to final face recognition folder in the repo to implement it (by training it to your face and testing it out)
 
 
-### Serving-:
-As i have told, my main theme of the project was to make it accessible to maximum number of people, Which can be possible with an api, so i made an api which will serve this model
-on multiple platforms at present you can use this api from android, web and through any device which can make a curl request
-
-[Click here](Link for server side code)
