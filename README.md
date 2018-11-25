@@ -11,7 +11,7 @@ Process of facial recognition can be broken down into 3 steps
 
 
 
-Face detection-: When an image is given to use for recognizing faces in it , actually the image does not only contain faces in it , for that fact it does not only contain humans it has lot of
+## Face detection-: When an image is given to use for recognizing faces in it , actually the image does not only contain faces in it , for that fact it does not only contain humans it has lot of
 other objects in it , so it would be inefficient for to take the entire image further into the pipeline, so we extract only the faces of the people in it and send it to the next stage
 There are broadly speaking two approaches haarcascade and a pretrained model (yes for even detecting faces), but as we are going to use packages we are going to explore all the different options
 we have here and finding out the best on of it.
@@ -37,7 +37,7 @@ Theory-: [Post](https://www.learnopencv.com/histogram-of-oriented-gradients/)
 
 Sorce-: [Post](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)
 
-Face embeddings and recognition-:
+## Face embeddings and recognition-:
 
 ### 1) LBPH-:
 Though LBPH is not the best method to produce embeddings for accurate face embeddings, since it also one of the ways which i have tried i am showing it.
@@ -57,7 +57,7 @@ I tried to code it myself, due to performance issues I ended up taking the help 
 
 
 ### Training the model-:
-I have used svm to train the model of the embeddings
+I have used svm to train the model of the embeddings, in open face implementation
 
 ### Face recognition summary -:
 Trying many different, methods(learning many implementations) I ended up with using implementation from
