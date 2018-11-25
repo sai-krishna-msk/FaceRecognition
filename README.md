@@ -11,7 +11,8 @@ Process of facial recognition can be broken down into 3 steps
 
 
 
-## Face detection-: When an image is given to use for recognizing faces in it , actually the image does not only contain faces in it , for that fact it does not only contain humans it has lot of
+## Face detection-:
+When an image is given to use for recognizing faces in it , actually the image does not only contain faces in it , for that fact it does not only contain humans it has lot of
 other objects in it , so it would be inefficient for to take the entire image further into the pipeline, so we extract only the faces of the people in it and send it to the next stage
 There are broadly speaking two approaches haarcascade and a pretrained model (yes for even detecting faces), but as we are going to use packages we are going to explore all the different options
 we have here and finding out the best on of it.
