@@ -1,16 +1,6 @@
 For implementing-:
 
 
-Clone this repo-:
-
-1)
-```
-git pull
-
-```
-2) clone the repo by pressing the cline button
-
-
 Installing the required dependencies-:
 > Open the command prompt
 > navigate to folder (inside the folder)
