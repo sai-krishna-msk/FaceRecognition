@@ -1,5 +1,5 @@
 
-** For someone who wants to directly implement the project navigate to Final folder     **
+**For someone who wants to directly implement the project navigate to 04_open_face folder**
 
 Process of facial recognition can be broken down into 3 steps
 
