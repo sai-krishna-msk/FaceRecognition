@@ -31,7 +31,7 @@ Theory-: [Post](https://www.learnopencv.com/histogram-of-oriented-gradients/)
 ### 3) Using CNN face detect model in open dlib
 [Post](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/)
 
-### 4) Using  mode trained on  tensorflow architecture and implementing it in opencv
+### 4) Using  model trained on tensorflow architecture and implementing it in opencv
 
 
 ### 5) Using resent
