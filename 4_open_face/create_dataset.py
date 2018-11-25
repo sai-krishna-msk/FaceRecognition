@@ -23,7 +23,7 @@ for i in range(int(no)):
 
     source = cv2.VideoCapture(0)
     while True:
-        if(count==25):
+        if(count==26):
             break
         bool , frame = source.read()
         frame = cv2.resize(frame , (320 , 240))
