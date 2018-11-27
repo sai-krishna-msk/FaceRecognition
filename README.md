@@ -12,7 +12,7 @@ Process of facial recognition can be broken down into 3 steps
 
 
 ## Face detection-:
-When a Face is to be recognized in a given image, actually the image not not only has faces in it, for that matter of fact it  not only contain humans it has lot of other (random)objects in it, so it would be inefficient for us to take the entire image further into the pipeline, so we extract only the faces of the people in it and send it to the next stage
+When a Face is to be recognized in a given image, actually the image not only has faces in it, for that matter of fact it  not only contain humans it has lot of other (random)objects in it, so it would be inefficient for us to take the entire image further into the pipeline, so we extract only the faces of the people in it and send it to the next stage
 
 Let us explore the best method
 
@@ -35,10 +35,10 @@ Theory-: [Post](https://www.learnopencv.com/histogram-of-oriented-gradients/)
 
 ### 5) Using resent
 
-Sorce-: [Post](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)
+Source-: [Post](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)
 
 ### Note:
-Using resent was the best approach based on the time taken and accruacy (here accuracy would be, If you slightly tilt your head towards any direction haarcascade would not identify it after a point, but resent is able to do that)
+Using resent was the best approach based on the time taken and accuracy (here accuracy would be, If you slightly tilt your head towards any direction haarcascade would not identify it after a point, but resent is able to do that)
 
 ## Face embeddings and recognition:
 
@@ -68,4 +68,4 @@ Trying many different, methods(learning many implementations) I ended up with us
 You can go to final face recognition folder in the repo to implement it (by training it to your face and testing it out)
 
 ### API:
-I have wrapped this model as an api, so that we can serve it on different platforms you can chekck that out [here](https://github.com/sai-krishna-msk/FaceRecognition-API)
+I have wrapped this model as an API, so that we can serve it on different platforms you can check that out [here](https://github.com/sai-krishna-msk/FaceRecognition-API)
