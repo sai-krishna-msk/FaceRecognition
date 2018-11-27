@@ -12,11 +12,11 @@ Process of facial recognition can be broken down into 3 steps
 
 
 ## Face detection-:
-When Faces are to be recognized in a given image, actually the image not not only has faces in it, for that matter of fact it  not only contain humans it has lot of other objects in it, so it would be inefficient for us to take the entire image further into the pipeline, so we extract only the faces of the people in it and send it to the next stage
+When a Face is to be recognized in a given image, actually the image not not only has faces in it, for that matter of fact it  not only contain humans it has lot of other (random)objects in it, so it would be inefficient for us to take the entire image further into the pipeline, so we extract only the faces of the people in it and send it to the next stage
 
-There are broadly speaking two approaches haarcascade and a pretrained model (yes for even detecting faces), but as we are going to use packages we are going to explore all the different options we have here and finding out the best on of it.
+Let us explore the best method
 
-Implementation-: Spoiler alert ->Fifth approach is the best (based on two metrics time and accuracy )
+Implementation-: Spoiler alert ->Open Face approach is the best (based on two metrics time and accuracy )
 Note-: Codes for implementing the script's are present within the respective folders
 
 ### 1) haarcascade-: It's the most easy and classic way to implement face detection
@@ -36,6 +36,9 @@ Theory-: [Post](https://www.learnopencv.com/histogram-of-oriented-gradients/)
 ### 5) Using resent
 
 Sorce-: [Post](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)
+
+### Note:
+Using resent was the best approach based on the time taken and accruacy (here accuracy would be, If you slightly tilt your head towards any direction haarcascade would not identify it after a point, but resent is able to do that)
 
 ## Face embeddings and recognition:
 
