@@ -58,7 +58,7 @@ while True:
 	fps.update()
 
 	cv2.imshow("Frame", frame)
-	if(key = cv2.waitKey(1) & 0xFF==27):
+	if(cv2.waitKey(1) & 0xFF==27):
 		break
 
 
