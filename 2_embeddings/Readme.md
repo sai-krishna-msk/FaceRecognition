@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 For implementing-:
 
 
@@ -46,4 +46,4 @@ python test.py
 ```
 You can find your embeddings in output folder after running the model
 During the process of training you can view which part of the image (face) is being converted to embeddings
->>>>>>> 292c2e4c5ed8938196724f06c57ad94d8f8f5d92
+
