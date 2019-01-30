@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 For implementing-:
 
 Installing the required dependencies-:
@@ -62,4 +62,4 @@ for testing the model
 ```
 python test.py
 ```
->>>>>>> 292c2e4c5ed8938196724f06c57ad94d8f8f5d92
+
