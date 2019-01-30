@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 For implementing-:
 
 
@@ -44,4 +44,3 @@ Then you can make use of the mode by
 ```
 python train.py
 ```
->>>>>>> 292c2e4c5ed8938196724f06c57ad94d8f8f5d92
