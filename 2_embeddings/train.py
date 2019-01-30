@@ -12,8 +12,6 @@ import os
 protoPath = os.path.sep.join("model/deploy.prototxt")
 modelPath = os.path.sep.join("model/res10_300x300_ssd_iter_140000.caffemodel")
 detector = cv2.dnn.readNetFromCaffe("model/deploy.prototxt" , "model/res10_300x300_ssd_iter_140000.caffemodel")
-
-
 embedder = cv2.dnn.readNetFromTorch("model/openface_nn4.small2.v1.t7")
 
 imagePaths = list(paths.list_images("dataset"))
