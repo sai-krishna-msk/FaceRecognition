@@ -11,55 +11,45 @@ conda install -c menpo dlib
 pip install imutils
 ```
 
-Just for trial purpose I have given a dataset as images of elon musk , leonardo de caprio , and steve jobs, I would recommend deleting all those three folders, If you wish to train it to your face
+### Use cases
 
-Creating Dataset:
-For creating your won dataset of images , if you could just run
-```
-python create_dataset.py
-```
-Which would take your photos and train them (in one go), important point to remember is there should be more then one class(train it on more than one member)
+> Steps you need to follow based on your use case are presented below 
 
+##### First time
 
-If you wish to upload your own set of images as dataset you can do so, and run
-```
-python train_present.py
-```
+- Collect dataset
 
-for testing the model
-```
-python test.py
-```
-=======
-For implementing-:
+   Intially you need to train your model with people you want it to recognize, For which you need to have a dataset (You need to have more than on class(meaning you need to train the model on more than one member), So when prompted "How many people you want it to train on" enter two people)
 
-Installing the required dependencies-:
-> Open the command prompt
-> navigate to folder (inside the folder)
-> enter-:
-```
-pip install opencv-contrib-python
-conda install -c menpo dlib
-pip install imutils
-```
+  ```bash
+  python create_dataset.py
+  ```
 
-Just for trial purpose I have given a dataset as images of elon musk , leonardo de caprio , and steve jobs, I would recommend deleting all those three folders, If you wish to train it to your face
+  
 
-Creating Dataset:
-For creating your won dataset of images , if you could just run
-```
-python create_dataset.py
-```
-Which would take your photos and train them (in one go), important point to remember is there should be more then one class(train it on more than one member)
+- Train the images collected
+
+  For training those images you need to execute the following
+
+  ```bash
+  python train_present
+  ```
 
 
-If you wish to upload your own set of images as dataset you can do so, and run
-```
-python train_present.py
-```
 
-for testing the model
-```
-python test.py
-```
+- Predict
+
+  Finally to put your model to test execute the following
+
+  ```bash 
+  python test.py
+  ```
+
+
+
+##### Retrain
+
+> If you want to add more people later for your model to identify,You can just follow the above steps your mode will simply append to the list of people it can identify 
+
+
 

@@ -80,6 +80,7 @@ def embeddingsGenrerator():
 	f = open("output/embeddings.pickle", "wb")
 	f.write(pickle.dumps(data))
 	f.close()
+	cv2.destroyAllWindows()
 
 
 
