@@ -26,4 +26,4 @@ for face in faces_cnn:
 cv2.imwrite("outputs/result.jpg", image)
 cv2.imshow("image" , image)
 if(cv2.waitKey(0) & 0xFF==27):
-    cv2.destroyAllWindows()
+	cv2.destroyAllWindows()
