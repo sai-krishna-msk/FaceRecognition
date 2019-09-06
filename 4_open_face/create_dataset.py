@@ -1,4 +1,4 @@
-
+from config import *
 import os
 import cv2
 import pickle
@@ -32,7 +32,7 @@ def CreateDataset():
 
         source = cv2.VideoCapture(0)
         while True:
-            if(count==20):
+            if(count==TRAINING_SIZE):
             	cv2.destroyAllWindows()
             	break
             bool , frame = source.read()
@@ -61,11 +61,12 @@ def CreateDataset():
                     if fW < 20 or fH <20:
                         continue
                     cv2.rectangle(frame , (startX , startY) , (endX , endY) , (0 , 0 , 255) , 2)
+                    path= "dataset/"+name+"/"+str(count)+".jpg"
+                    cv2.imwrite(path , img)
+                    count = count+1
 
             cv2.imshow("Frame" , frame)
-            path= "dataset/"+name+"/"+str(count)+".jpg"
-            cv2.imwrite(path , img)
-            count = count+1
+            
             if(cv2.waitKey(1) & 0XFF==27):
                 break
 

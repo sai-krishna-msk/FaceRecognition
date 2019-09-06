@@ -53,3 +53,7 @@ pip install imutils
 
 
 
+### Note:
+
+- You can change the training size by changing the config file
+- Make sure when prompted for the name of the class/person you do not enter a name with space in it
