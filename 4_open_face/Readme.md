@@ -1,5 +1,4 @@
 
-For implementing-:
 
 Installing the required dependencies-:
 > Open the command prompt
@@ -11,11 +10,11 @@ conda install -c menpo dlib
 pip install imutils
 ```
 
-### Use cases
 
-> Steps you need to follow based on your use case are presented below 
 
-##### First time
+#### Steps you need to follow based on your use case are presented below 
+
+
 
 - Collect dataset
 
@@ -32,7 +31,7 @@ pip install imutils
   For training those images you need to execute the following
 
   ```bash
-  python train_present
+  python train_present.py
   ```
 
 
@@ -55,7 +54,7 @@ pip install imutils
   ```
 
 
-- To re-train the model from scrtch
+- To re-train the model from scrtch first run the following script to clear the model and the dataset and  start from collect dataset 
 
 ```bash
 python delete_current.py
@@ -66,7 +65,7 @@ python delete_current.py
 
 ##### Retrain
 
-> If you want to add more people later for your model to identify,You can just follow the above steps your mode will simply append to the list of people it can identify 
+> If you want to add more people in the future after you intially train, just follow the above steps, your model will simply append to the list of people it can identify 
 
 
 
