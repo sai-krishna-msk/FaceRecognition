@@ -1,0 +1,2 @@
+TRAINING_SIZE=50
+ThreshTime = 15
