@@ -1,4 +1,4 @@
 certifi==2018.10.15
 numpy==1.15.4
-opencv-python==3.4.3.18
+opencv-python==3.4.7.28
 wincertstore==0.2
